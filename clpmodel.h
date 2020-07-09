@@ -25,19 +25,12 @@ public:
     int rowCount(const QModelIndex &parent = QModelIndex()) const override;
 
     QVariant data(const QModelIndex &index, int role = Qt::DisplayRole) const override;
-
-
-//    bool setData(const QModelIndex &index, const QVariant &value,
-//                 int role = Qt::EditRole) override;
-
     Qt::ItemFlags flags(const QModelIndex& index) const override;
 
     virtual QHash<int,QByteArray>roleNames()const override;
     CLPList *list() const;
     void setList(CLPList *list);
-//    void showOnlyFavorite();
-//    void onTurnFavorit();
-//    void localFiltr();
+
     void ResetModel();
 private:
     CLPList *mList;
