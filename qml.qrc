@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>PageList.qml</file>
+        <file>Image/avatar1.jpg</file>
+        <file>Image/avatar2.jpg</file>
+        <file>Image/avatar3.jpg</file>
+        <file>Image/avatar4.jpg</file>
+        <file>Image/avatar5.jpg</file>
+        <file>Image/avatar6.jpg</file>
+        <file>Image/BlackStar.png</file>
+        <file>Image/GoldStar.png</file>
+        <file>DelegateList.qml</file>
+        <file>DialogeWindow.qml</file>
+    </qresource>
+</RCC>
